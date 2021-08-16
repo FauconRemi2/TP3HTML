@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Faucon Rémi - Les tableaux</h1>
+    </header>
+    <main>
+        <h2>Mon premier tableau</h2>
+        <table border="1">
+            <tr>
+                <th><strong>ID</strong></th>
+                <th><strong>GAME</strong></th>
+                <th><strong>CONSOLE</strong></th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Pkmn Ruby</td>
+                <td>Game Boy Advance</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Ray Man 2</td>
+                <td>Dreamcast</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Wario Ware</td>
+                <td>Game Boy Advance</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>sonic Advt 2</td>
+                <td>Dreamcast</td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>...</td>
+                <td>...</td>
+            </tr>
+        </table>
+        <h2>Mon second tableau</h2>
+        <table border="1">
+            <tr>
+                <th><strong>ID</strong></th>
+                <th><strong>GAME</strong></th>
+                <th><strong>CONSOLE</strong></th>
+                <th><strong>YEAR</strong></th>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Ray Man 2</td>
+                <td rowspan="2">Dreamcast</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>sonic Advt 2</td>
+                <td>2001</td>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Pkmn Ruby</td>
+                <td rowspan="2">Game Boy Advance</td>
+                <td rowspan="2">2003</td>
+            </tr>
+            
+            <tr>
+                <td>003</td>
+                <td>Wario Ware</td>
+            </tr>
+            
+            <tr>
+                <td>005</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+            </tr>
+        </table>
+        <h2>Mon troisième tableau</h2>
+        <table border="1">
+            <tr>
+                <th><strong>ID</strong></th>
+                <th><strong>GAME</strong></th>
+                <th><strong>CONSOLE</strong></th>
+                <th><strong>PRICE</strong></th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Pkmn Ruby</td>
+                <td>Game Boy Advance</td>
+                <td>30.00€</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Ray Man 2</td>
+                <td>Dreamcast</td>
+                <td>40.00€</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Wario Ware</td>
+                <td>Game Boy Advance</td>
+                <td>25.00€</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>sonic Advt 2</td>
+                <td>Dreamcast</td>
+                <td>40.00€</td>
+            </tr>
+            <tr>
+                <td>article</td>
+                <td colspan="3">Rayman 2 + Sonic advt 2</td>
+            </tr>
+            <tr>
+                <td colspan="3">TOTAL</td>
+                <td>80.00€</td>
+            </tr>
+        </table>
+        <h2>Mon emploi du temps</h2>
+        <table border="1">
+            <tr>
+                <th colspan="7">EMPLOI DU TEMPS</th>
+            </tr>
+            <tr>
+                <td>X</td>
+                <td>Lundi</td>
+                <td>Mardi</td>
+                <td>Mercredi</td>
+                <td>Jeudi</td>
+                <td>Vendredi</td>
+                <td>WEEK-END</td>
+            </tr>
+            <tr>
+                <td rowspan="2">A.M</td>
+                <td rowspan="2">Rentrée</td>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td rowspan="4">Libre</td>
+                <td>TP n°5</td>
+                <td rowspan="4">NETFLIX & CHILL</td>
+            </tr>
+            <tr>
+                <td>TP n°2</td>
+                <td>TP n°4</td>
+                <td>TP n°6</td>
+            </tr>
+            <tr>
+                <td rowspan="2">P.M</td>
+                <td>HTML</td>
+                <td rowspan="2">TP n°3</td>
+                <td rowspan="2">Bilan</td>
+                <td>JS</td>
+            </tr>
+            <tr>
+                <td>TP n°1</td>
+                <td>PHP</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
